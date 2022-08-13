@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Furniture Factory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-bars navbar-icon"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item btn dropdown-button" href="signin.html">SIGN IN</a></li>
+                      <hr>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user dropdown-icon"></i> My Account</a></li>
+                      <li><a class="dropdown-item" href="#"> <i class="fa-solid fa-box dropdown-icon"></i> Order</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-heart dropdown-icon"></i> Saved items</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cart.html"> <i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="7000">
+                    <!-- <img src="images/samsung-galaxy.jpg" class="d-block w-100" alt="samsung-galaxy"> -->
+                    <div class="image-overlay">
+                        <div class="carousel-caption">
+                        <h5><span>THE</span> FURNITURE</h5>
+                        <h5>FACTORY<span>LTD</span></h5>
+                        <button class="btn btn-danger py-2 px-3">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="carousel-item" data-bs-interval="7000">
+                    <!-- <img src="images/iphone & ipad.jpg" class="d-block w-100" alt="iphone & ipad"> -->
+                    <div class="image-overlay">
+                        <div class="carousel-caption">
+                            <h5><span>THE</span> FURNITURE</h5>
+                            <h5>FACTORY<span>LTD</span></h5>
+                            <button class="btn btn-danger py-2 px-3">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                
+              <div class="carousel-item" data-bs-interval="7000">
+                <!-- <img src="images/headphones.jpg" class="d-block w-100" alt="headphones"> -->
+                <div class="image-overlay">
+                    <div class="carousel-caption">
+                        <h5><span>THE</span> FURNITURE</h5>
+                        <h5>FACTORY<span>LTD</span></h5>
+                        <button class="btn btn-danger py-2 px-3">SHOP NOW</button>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+    <main>
+        <div class="all-categories text-center">
+            <hr class="half-hr"> <h2 class="category-heading">All Categories</h2> <hr class="half-hr">
+        </div>
+
+        <div class="container px-5">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                    <a href="#">
+                      <div class="overlay"></div>
+                      <img src="images/categories/armchair.jpg" width="175px" alt="">
+                    </a>
+                  <p>Armchairs</p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                  <a href="#">
+                    <div class="overlay"></div>
+                    <img src="images/categories/couch.jpg" width="150px" alt="">
+                  </a>
+                  <p>sofa</p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                  <a href="#">
+                    <div class="overlay"></div>
+                    <img src="images/categories/bed.jpg" width="150px" alt="">
+                  </a>
+                  <p>Beds</p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                  <a href="#">
+                    <div class="overlay"></div>
+                    <img src="images/categories/bedside-table.jpg" width="150px" alt="">
+                  </a>
+                  <p>Bedside table</p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                  <a href="">
+                    <div class="overlay"></div>
+                    <img src="images/categories/center-table.jpg" width="150px" alt="">
+                  </a>
+                  <p>Center table</p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                  <a href="">
+                    <div class="overlay"></div>
+                    <img src="images/categories/chest-of-drawers.jpg" width="150px" alt="">
+                  </a>
+                  <p>Chest of drawers</p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                  <a href="">
+                    <div class="overlay"></div>
+                    <img src="images/categories/dinner-chair.jpg" width="150px" alt="">
+                  </a>
+                  <p>Dinner chairs</p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                  <a href="">
+                    <div class="overlay"></div>
+                    <img src="images/categories/dinner-table.jpg" width="150px" alt="">
+                  </a>
+                  <p>Dinner tables</p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 mx-3 text-center category">
+                  <a href="">
+                    <div class="overlay"></div>
+                    <img src="images/categories/side-table.jpg" width="150px" alt="">
+                  </a>
+                  <p>Side tables</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup display-none">
+        </div>
+        
+
+        <div class="container text-left py-5">
+          <h2 class="heading px-4 mb-3">Featured products</h2> <hr class="small-hr">
+          <div class="row">
+
+            <!-- <div class="popup-img display-none" id="popup-img1">
+              <a href="#"><img src="images/featured-products/sofa.jpg" alt="sofa"></a>
+            </div> -->
+
+            <div>
+              <a href="#"><img class="popup-img display-none" id="popup-img" src="" alt="sofa"></a>
+            </div>
+
+            <!-- <div class="cancle-popup display-none" onclick="canclePopup('popup-img1', this)">
+              <i class="fa-solid fa-xmark fa-2x" style="color: white;"></i>
+            </div> -->
+
+            <div class="cancle-popup display-none" onclick="canclePopup(this)">
+              <i class="fa-solid fa-xmark fa-2x" style="color: white;"></i>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+
+                <!-- <div class="product-image product-img" onclick="popup(this,'popup-img1')">
+                  <img src="images/featured-products/sofa.jpg" alt="sofa">
+                </div> -->
+
+                <div class="product-image product-img">
+                  <img src="images/featured-products/sofa.jpg" onclick="popup(this)" alt="sofa">
+                </div>
+
+                <h5 class="ps-2">Mac- Bliz 2 Seater Sofa - lightblue</h5>
+                <p class="ps-2">$730</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+              <div class="product-image">
+                <img src="images/featured-products/bed.jpg" onclick="popup(this)" alt="sofa">
+              </div>
+              <h5 class="ps-2">Handys Duetto King Size Bed</h5>
+              <p class="ps-2">$1030</p>
+            </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+            <div class="product-image">
+              <img src="images/featured-products/coffee-table.jpg" onclick="popup(this)" alt="sofa">
+            </div>
+            <h5 class="ps-2">Alana White Fosco Coffee Table</h5>
+            <p class="ps-2">$350</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+            <div class="product-image">
+              <img src="images/featured-products/kitchen-counter.jpg" onclick="popup(this)" alt="sofa">
+            </div>
+            <h5 class="ps-2">Royal Executive Wooden Dining Set With 4 chairs</h5>
+            <p class="ps-2">$800</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+            <div class="product-image">
+              <img src="images/featured-products/side-table.jpg" onclick="popup(this)" alt="sofa">
+            </div>
+            <h5 class="ps-2">Handys Abbott White And Oak Wood side table</h5>
+            <p class="ps-2">$230</p>
+          </div>
+          </div>
+      </div>
+
+
+      <div class="container text-left py-5">
+        <h2 class="heading px-4 mb-3">Top Selling items</h2> <hr class="small-hr">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+              <div class="product-image">
+                <img src="images/top-sellers/bed.jpg" onclick="popup(this)" alt="sofa">
+              </div>
+              <h5 class="ps-2">Handys Krustallos King Bed</h5>
+              <p class="ps-2">$2530</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+            <div class="product-image">
+              <img src="images/top-sellers/living-room.jpg" onclick="popup(this)" alt="sofa">
+            </div>
+            <h5 class="ps-2">Myles black Sofa Set + wodden Top</h5>
+            <p class="ps-2">$2830</p>
+          </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+          <div class="product-image">
+            <img src="images/top-sellers/couch&coffee-table.jpg" onclick="popup(this)" alt="sofa">
+          </div>
+          <h5 class="ps-2">Myles cream Sofa Set + wodden Top coffee table</h5>
+          <p class="ps-2">$350</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+          <div class="product-image">
+            <img src="images/top-sellers/couch.jpg" onclick="popup(this)" alt="sofa">
+          </div>
+          <h5 class="ps-2">Handys Living Linen Convert-a-couch</h5>
+          <p class="ps-2">$800</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 featured-poduct">
+          <div class="product-image">
+            <img src="images/featured-products/side-table.jpg" onclick="popup(this)" alt="sofa">
+          </div>
+          <h5 class="ps-2">Abbott White And Oak Wood side table</h5>
+          <p class="ps-2">$230</p>
+        </div>
+        </div>
+
+        <div class="container my-5 text-center about-service">
+          <h2>Buy Online Furniture & Interior Design Services</h2>
+          <p>
+            The Furniture Factory Limited, Leading furniture shopping destination offers a unique selection of stylish, contemporary, and chic furniture online. Choosing the right furniture selection at our stores for your home & office will add sophistication and functionality to your space. Our online furniture range includes bedroom sets, sofa sets, kitchen cabinets, wardrobe cabinets, office furniture and other furniture and decorative elements such as, wallpaper decors for your homes. At The Furniture Factory our architects can offer design services that help our clients make informed decisions and apply the latest industry trends as such creating greater value that helps elevate a space to higher standards.
+          </p>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+      <div class="container row">
+        <div class="col-lg-4 mb-4">
+          <img src="images/logo.png" class="logo footer-logo mb-5" alt="logo">
+          <i class="fa-solid fa-house pe-2"></i><h6 class="inline">Factory adress</h5>
+          <p class="ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, consectetur!</p>
+          <i class="fa-solid fa-envelope pe-2"></i> <p class="inline">Loremabc@123.com</p>
+          <div class="mt-2">
+            <i class="fa-solid fa-phone pe-2"></i><p class="inline">0123456789</p>
+            <p class="ms-4">0123456789</p>
+          </div>
+          <i class="fa-brands fa-facebook-f px-2"></i>
+          <i class="fa-brands fa-twitter px-2"></i>
+          <i class="fa-brands fa-instagram px-2"></i>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <h5 class="pb-3">USEFULL LINKS</h5>
+          <p>Home</p>
+          <p>Products</p>
+          <p>About us</p>
+          <p>Contact</p>
+        </div>
+
+        <div class="col-lg-4">
+          <h5 class="pb-3">Stores Locations</h5>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>vel corrupti possimus architecto, dolorum </li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing </li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+          </ul>
+        </div>
+
+      </div>
+      <p class="mt-3">Images gotten from <a href="https://unsplash.com/" target="_blank" class="footer-image-link">Unsplash </a>- <a href="images.html" target="_blank" class="footer-image-link">View more info about images</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1dbc5b03e6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

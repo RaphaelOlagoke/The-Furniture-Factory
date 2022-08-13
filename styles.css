@@ -111,21 +111,21 @@ body{
 }
 
 .carousel-item:first-child{
-    background-image: url("images/couch.jpg");
+    background-image: url("./images/couch.jpg");
     background-color: black;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .carousel-item:nth-child(2){
-    background-image: url("images/bed.jpg");
+    background-image: url("./images/bed.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 
 .carousel-item:last-child{
-    background-image: url("images/room.jpg");
+    background-image: url("./images/room.jpg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -389,19 +389,19 @@ footer p, footer li{
     }
 
     .carousel-item:first-child{
-        background-image: url("images/couch-mobile.jpg");
+        background-image: url("./images/couch-mobile.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
     }
 
     .carousel-item:nth-child(2){
-        background-image: url("images/table-mobile.jpg");
+        background-image: url("./images/table-mobile.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
     }
 
     .carousel-item:nth-child(3){
-        background-image: url("images/bed-mobile.jpg");
+        background-image: url("./images/bed-mobile.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
     }
